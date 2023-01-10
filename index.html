@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Selector</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- 色塊區 -->
+      <div class="show-color-box">
+        <input type="color" class="color-input" value="#dcd0c0" />
+        <div class="card-text">#D5D0BC</div>
+      </div>
+      <!-- 滑桿區 -->
+      <div class="range-box">
+        <h3>Change background color :</h3>
+        <div>
+          <span>R</span>
+          <input
+            type="range"
+            min="0"
+            max="255"
+            step="1"
+            value="219"
+            class="input-bar red-bar"
+          />
+          <span>219</span>
+        </div>
+        <div>
+          <span>G</span>
+          <input
+            type="range"
+            min="0"
+            max="255"
+            step="1"
+            value="218"
+            class="input-bar green-bar"
+          />
+          <span>218</span>
+        </div>
+        <div>
+          <span>B</span>
+          <input
+            type="range"
+            min="0"
+            max="255"
+            step="1"
+            value="213"
+            class="input-bar blue-bar"
+          />
+          <span>213</span>
+        </div>
+      </div>
+      <footer>
+        <hr />
+        <h3>Background HEX</h3>
+        <div class="hex-text">#DBDAD5</div>
+        <div class="like-btn"></div>
+        <p class="name"></p>
+      </footer>
+    </div>
+  </body>
+</html>
